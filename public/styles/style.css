@@ -138,15 +138,22 @@ body {
 
 /* Aqui termina o index.html */
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .login .container {
+    display: flex;
     background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
     background-size: cover;
     height: 700px;
     width: 100%;
-    display: flex;
     justify-content: space-around;
-    color: #ed145b;
     padding: 80px;
+    color: #ed145b;
 }
 
 .card-cadastro {
@@ -156,15 +163,18 @@ body {
     font-weight: bold;
     background-color: #dcdcdc;
     border-radius: 5%;
-    height: 550px;
+    height: 450px;
     width: 550px;
+    margin-top: 15px;
 }
 
 .input_group {
     border: solid #32b9cd 2px;
     border-radius: 2%;
     height: 30px;
-    width: 400px;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
     display: flex;
     text-align: center;
 }
@@ -179,7 +189,8 @@ body {
     width: 100px;
     font-weight: bolder;
     align-items: center;
-    justify-content: space-around;
+    margin-top: 15px;
+    flex-direction: column;
 }
 
 /* Aqui termina o css do cadastro */
@@ -192,28 +203,8 @@ body {
     font-weight: bold;
     background-color: #dcdcdc;
     border-radius: 5%;
-    height: 300px;
+    height: 280px;
     width: 500px;
+    margin-top: 15px;
 }
 
-.input_group {
-    border: solid #32b9cd 2px;
-    border-radius: 2%;
-    height: 30px;
-    width: 400px;
-    display: flex;
-    text-align: center;
-}
-
-.botao {
-    all: unset;
-    background-color: #ed145b;
-    color: white;
-    display: flex;
-    border-radius: 5%;
-    height: 30px;
-    width: 100px;
-    font-weight: bolder;
-    align-items: center;
-    justify-content: space-around;
-}
